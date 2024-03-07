@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+body {
+    animation: body-gradient 20s ease infinite;
+    background: linear-gradient(
+        -45deg,
+        $bodyBackgroundColor,
+        shade($bodyBackgroundColor, 50%),
+        shade($bodyBackgroundColor, 10%),
+        shade($bodyBackgroundColor, -10%),
+        shade($bodyBackgroundColor, -50%)
+    );
+	background-size: 400% 400%;
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.page {
+    display: block;
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    padding: 0 100px;
+    width: 100%;
+
+    .page-content {
+        backface-visibility: hidden;
+        background-color: $headerBackgroundColor;
+        border-radius: 32px;
+        box-shadow: 0 0 100px -5px alpha(#000, -0.75);
+        margin: 10vh auto;
+        max-width: 1280px;
+        min-height: 80vh;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+}
+
+.content-area {
+    background-color: transparent;
+    height: 100%;
+    position: absolute;
+    right: 0;
+
+    .section {
+        backface-visibility: hidden;
+        background-color: $sectionBackgroundColor;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+        height: 100%;
+        overflow: auto;
+        position: absolute;
+        transform: translate3d(0,0,0);
+        width: 100%;
+    }
+}
+
+@include media-breakpoint-down(xxl) {
+    .page { padding-left:30px; }
+}
+
+@include media-breakpoint-down(lg) {
+    .page {
+        padding: 0;
+
+        .page-content {
+            border-radius: 0;
+            display: contents;
+            margin: 0;
+            min-height: 100%;
+            padding: 0;
+            width: inherit;
+        }
+
+        .content-area {
+            max-width: 100%;
+            width: inherit;
+
+            .section {
+                border-radius: 0;
+                overflow: auto!important;
+            }
+        }
+    }
+}
+
+@keyframes body-gradient {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}

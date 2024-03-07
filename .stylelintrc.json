@@ -1,0 +1,18 @@
+{
+    "plugins": [
+        "stylelint-order"
+    ],
+    "extends": "stylelint-config-standard-scss",
+    "rules": {
+        "selector-pseudo-class-no-unknown": [true, {
+            "ignorePseudoClasses": ["export", "global"]
+        }],
+        "order/properties-alphabetical-order": true,
+        "declaration-block-no-shorthand-property-overrides": true,
+        "scss/dollar-variable-pattern": [
+            "/[a-z][a-zA-Z]+/",
+            {"ignore": "global"}
+        ],
+        "property-no-unknown": null
+    }
+}

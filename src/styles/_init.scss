@@ -1,0 +1,39 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$enable-dark-mode: false;
+$theme-colors: (
+  "primary": $primaryColor,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+$font-family-base: $fontFamily;
+$line-height-base: 1.65em;
+$font-size-base: 0.9375rem;
+$body-color: $textColor;
+$link-color: $linksColor;
+$link-hover-color: $primaryColor;
+$link-decoration: none;
+$enable-gradients: true;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    45: $spacer * 2,
+    5: $spacer * 3,
+);
+$headings-font-weight: 600;
+$headings-line-height: inherit;
+$headings-color: $titlesColor;
+$headings-margin-bottom: 0;
+
+@import "../node_modules/bootstrap/scss/mixins";
+@import './functions';
+@import './exports';

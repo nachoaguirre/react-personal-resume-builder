@@ -1,0 +1,9 @@
+@use 'sass:color';
+
+@function shade($color, $cantidad) {
+    @return color.scale($color, $lightness: $cantidad);
+}
+
+@function alpha($color, $cantidad) {
+    @return color.scale($color, $alpha: $cantidad * 100%);
+}

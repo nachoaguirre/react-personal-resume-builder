@@ -1,0 +1,297 @@
+{
+    "header": {
+        "download_cv": "Download CV",
+        "cv_link": "John_Doe_Resume_EN.pdf",
+        "change_language": "Ver en Español"
+    },
+    "menu": {
+        "home": "Home",
+        "about": "About",
+        "resume": "Resume",
+        "contact": "Contact"
+    },
+    "home": {
+        "rotate_phrases": [
+            "Tagline 1",
+            "Tagline 2",
+            "Tagline 3",
+            "Tagline 4"
+        ]
+    },
+    "about": {
+        "title": "About <1>Me</1>",
+        "bio_title": "Biography",
+        "bio": [
+            "<p>Welcome to my personal webpage! I'm a passionate professional with a strong background in [your field/industry], dedicated to [briefly describe what you do or your main professional focus]. With [X] years of experience, I've honed my skills in [mention a few key skills or areas of expertise], making significant contributions to every project or team I've been a part of. My journey has been fueled by my commitment to continuous learning and growth, always seeking to stay ahead of industry trends and developments.</p>",
+            "<p>My professional path has been diverse, offering me the opportunity to work in various roles such as [mention one or two previous roles] and collaborate with talented individuals from different backgrounds. This experience has not only enriched my skill set but also broadened my perspective, allowing me to approach challenges with a unique and innovative mindset. I thrive in environments that challenge me, pushing me to exceed my limits and contribute to my team's success.</p>",
+            "<p>Beyond my professional life, I'm deeply passionate about [mention a hobby or interest], which allows me to maintain a balanced lifestyle. I believe in the importance of [mention a personal belief or value, like giving back to the community, personal growth, etc.], which reflects in both my personal and professional interactions. I'm eager to connect with like-minded professionals and explore opportunities for collaboration and growth. Thank you for visiting my page, and I look forward to sharing my journey with you.</p>"
+        ],
+        "personal_info": {
+            "age": {
+                "title": "Age",
+                "value": "{{val}} years"
+            },
+            "location": {
+                "title": "Location",
+                "value": "{{val}}"
+            },
+            "email": {
+                "title": "Email",
+                "value": "<EmailLink href='mailto:{{val}}'>{{val}}</EmailLink>"
+            },
+            "phone": {
+                "title": "Phone",
+                "value": "<PhoneLink href='tel:{{val}}'>{{val}}</PhoneLink>"
+            }
+        },
+        "what_i_do": {
+            "title": "What <span>I Do</span>",
+            "blocks": [
+                {
+                    "icon": "fa6-solid:code",
+                    "title": "Block One",
+                    "text": "I specialize in driving innovation and developing new technologies. My focus is on creating solutions that not only meet current market needs but also anticipate future challenges. Through in-depth analysis and boundless creativity, I aim to transform innovative ideas into disruptive products or services that make a difference."
+                },
+                {
+                    "icon": "fa6-solid:rocket",
+                    "title": "Block Two",
+                    "text": "As a leader, I am committed to managing and developing high-performance teams. I strongly believe in the potential of every individual and work to foster an inclusive and motivating work environment. My goal is to inspire my team to reach their highest potential, promoting constant innovation and a culture of excellence."
+                },
+                {
+                    "icon": "fa6-solid:cloud-arrow-up",
+                    "title": "Block Three",
+                    "text": "My experience encompasses strategic planning and operations optimization. I am dedicated to enhancing efficiency and productivity by implementing processes that maximize resources and minimize costs. With an analytical approach, I strive to overcome operational challenges and achieve business objectives with pragmatic and effective solutions."
+                },
+                {
+                    "icon": "fa6-solid:flag",
+                    "title": "Block Four",
+                    "text": "I believe in the power of collaboration and building strong networks. My focus is on establishing meaningful connections with professionals from various fields, creating opportunities for knowledge exchange and mutual growth. Interdisciplinary collaboration is key to innovating and tackling the complex challenges of our time."
+                }
+            ]
+        },
+        "testimonials": {
+            "title": "Testimonials",
+            "blocks": [
+                {
+                    "author": "Author Name 1",
+                    "picture": "img/testimonial_1.jpg",
+                    "quote": "Working with [Name] has been an enlightening experience. Their ability to lead projects and keep the team motivated under pressure is exceptional. They always bring innovative ideas to the table, which has definitely driven the success of our projects.",
+                    "role": "Author Role at Company/Institution",
+                    "link": "https://www.linkedin.com/in/#"
+                },
+                {
+                    "author": "Author Name 2",
+                    "picture": "img/testimonial_2.jpg",
+                    "quote": "[Name] has an impressive ability to analyze complex data and translate it into understandable and effective strategies. Their analytical approach has been invaluable to our team, significantly contributing to our decision-making process.",
+                    "role": "Author Role at Company/Institution",
+                    "link": "https://www.linkedin.com/in/#"
+                },
+                {
+                    "author": "Author Name 3",
+                    "picture": "img/testimonial_3.jpg",
+                    "quote": "[Name]'s passion for excellence is contagious. Their dedication to work and constant pursuit of improvement have elevated the quality of our work. It's truly a pleasure to have [Name] on our team.",
+                    "role": "Author Role at Company/Institution",
+                    "link": "https://www.linkedin.com/in/#/"
+                },
+                {
+                    "author": "Author Name 4",
+                    "picture": "img/testimonial_4.jpg",
+                    "quote": "[Name] is an exceptional collaborator, always willing to share their knowledge and experience. Their ability to connect with people from different backgrounds and foster a collaborative work environment is remarkable. [Name] is not only a great professional but also an inspiration to everyone.",
+                    "role": "Author Role at Company/Institution",
+                    "link": "https://www.linkedin.com/in/#/"
+                }
+            ]
+        }
+    },
+    "resume": {
+        "title": "Resume",
+        "experience": {
+            "title": "Experience",
+            "blocks": [
+                {
+                    "period": "01/2023 - 12/2023",
+                    "company": "Company Name",
+                    "role": "Director of Innovation",
+                    "description": [
+                        "In my role as Director of Innovation at [Company Name], I led the development of innovation strategies that transformed the business approach to advanced technological solutions. I coordinated multidisciplinary teams for the research and development of new products, ensuring our solutions were at the forefront of the market.",
+                        "During my tenure, we implemented pioneering projects that resulted in significant portfolio growth and a 30% increase in customer satisfaction. My focus on interdepartmental collaboration fostered an inclusive and highly productive work environment."
+                    ]
+                },
+                {
+                    "period": "01/2022 - 12/2022",
+                    "company": "Company Name",
+                    "role": "Digital Marketing Manager",
+                    "description": [
+                        "As Digital Marketing Manager at [Company Name], I designed and implemented digital marketing campaigns that doubled the brand's online visibility within a year. My strategy focused on data analysis to optimize advertising and social media content, significantly improving user engagement and lead conversion.",
+                        "I established strategic collaborations with influencers and brands, expanding our reach and strengthening the company's online presence. Under my leadership, the marketing team exceeded sales targets by 40%, demonstrating the effectiveness of our digital campaigns."
+                    ]
+                },
+                {
+                    "period": "01/2021 - 12/2021",
+                    "company": "Company Name",
+                    "role": "Sustainability Development Specialist",
+                    "description": [
+                        "In my position as Sustainability Development Specialist for [Company Name], I led initiatives to integrate sustainable practices across the company's operations. I developed sustainability policies that reduced the company's environmental impact by 25% over two years, through the implementation of energy efficiency solutions and waste reduction.",
+                        "I collaborated closely with suppliers to ensure all materials and processes met the highest sustainability standards. My work contributed to the company being recognized with several awards for its commitment to the environment and social responsibility."
+                    ]
+                },
+                {
+                    "period": "01/2020 - 12/2020",
+                    "company": "Company Name",
+                    "role": "Chief Operations Officer",
+                    "description": [
+                        "As Chief Operations Officer at [Company Name], I was responsible for optimizing operational processes to enhance efficiency and productivity. I implemented Lean and Six Sigma management systems that resulted in a 20% reduction in production times and a significant improvement in product quality.",
+                        "I led the restructuring of the supply chain, which improved logistics and reduced operational costs by 15%. My leadership and focus on continuous improvement played a crucial role in the company's sustainable growth and competitiveness in the market."
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "title": "Education",
+            "blocks": [
+                {
+                    "period": "2015 - 2019",
+                    "place": "Example University",
+                    "grade": "Bachelor's Degree in [Field of Study]",
+                    "description": "At Example University, I pursued a Bachelor's Degree in [Field of Study], focusing on [mention a specific area of study or research]. My academic journey provided me with a solid foundation in [mention key skills or knowledge acquired], which has been instrumental in my professional development."
+                }
+            ]
+        },
+        "certificates": {
+            "title": "Certificates",
+            "blocks": [
+                {
+                    "logo": "img/cert_1.jpg",
+                    "title": "Certificate Title",
+                    "date": "July 2022",
+                    "place": "Institution Name",
+                    "link": "#"
+                },
+                {
+                    "logo": "img/cert_2.jpg",
+                    "title": "Certificate Title",
+                    "date": "August 2023",
+                    "place": "Institution Name",
+                    "link": "#"
+                }
+            ]
+        },
+        "hard_skills": {
+            "title": "Hard <span>Skills</span>",
+            "blocks": [
+                {
+                    "skill": "Skill 1",
+                    "description": "Description 1"
+                },
+                {
+                    "skill": "Skill 2",
+                    "description": "Description 2"
+                },
+                {
+                    "skill": "Skill 3",
+                    "description": "Description 3"
+                },
+                {
+                    "skill": "Skill 4",
+                    "description": "Description 4"
+                },
+                {
+                    "skill": "Skill 5",
+                    "description": "Description 5"
+                },
+                {
+                    "skill": "Skill 6",
+                    "description": ""
+                },
+                {
+                    "skill": "Skill 7",
+                    "description": "Description 7"
+                },
+                {
+                    "skill": "Skill 8",
+                    "description": "Description 8"
+                },
+                {
+                    "skill": "Skill 9",
+                    "description": ""
+                },
+                {
+                    "skill": "Skill 10",
+                    "description": ""
+                }
+            ]
+        },
+        "soft_skills": {
+            "title": "Soft <span>Skills</span>",
+            "blocks": [
+                "Skill 1",
+                "Skill 2",
+                "Skill 3"
+            ]
+        },
+        "strengths": {
+            "title": "Strengths",
+            "blocks": [
+                "Strength 1",
+                "Strength 2",
+                "Strength 3",
+                "Strength 4",
+                "Strength 5",
+                "Strength 6",
+                "Strength 7"
+            ]
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "personal_info": {
+            "location": {
+                "icon": "fa6-solid:location-dot",
+                "value": "{{val}}"
+            },
+            "email": {
+                "icon": "fa6-solid:envelope",
+                "value": "<EmailLink href='mailto:{{val}}'>{{val}}</EmailLink>"
+            },
+            "phone": {
+                "icon": "fa6-solid:phone",
+                "value": "<PhoneLink href='tel:{{val}}'>{{val}}</PhoneLink>"
+            },
+            "openToWork": {
+                "icon": "fa6-solid:circle-check",
+                "value": "<OpenToWork>Open To Work</OpenToWork>"
+            }
+        },
+        "form": {
+            "title": "How Can I <span>Help You?</span>",
+            "label": {
+                "name": "Name",
+                "email": "Email",
+                "subject": "Subject",
+                "message": "Message",
+                "send": "Send message"
+            },
+            "invalid_email": "Invalid email"
+        },
+        "alert": {
+            "sending": {
+                "title": "Sending message",
+                "text": "Please wait while your message is being sent..."
+            },
+            "success": {
+                "title": "Message sent",
+                "text": "Your message has been sent successfully. I will contact you as soon as possible."
+            },
+            "error": {
+                "title": "Error",
+                "text": "An error occurred while sending your message. Please try again later."
+            }
+        }
+    },
+    "errorPage": {
+        "pageNotFound": "Page not found",
+        "internalError": "An internal error occurred. Please try again later",
+        "defaultError": "An error occurred. Please try again later",
+        "backToHome": "Back to Home"
+    }
+}

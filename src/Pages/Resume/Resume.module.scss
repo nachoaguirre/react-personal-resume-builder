@@ -1,0 +1,256 @@
+.timeline {
+    .timeline-item {
+        display: table;
+        padding-bottom: 15px;
+        position: relative;
+        table-layout: fixed;
+        width: 100%;
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+
+        .left-part {
+            display: table-cell;
+            min-height: 100%;
+            padding-right: 20px;
+            text-align: right;
+            vertical-align: top;
+
+            .item-period {
+                color: #aaa;
+                font-size: 12px;
+                line-height: 1.4em;
+                margin: 3px 0;
+            }
+
+            .item-company {
+                color: #a5a6a7;
+                display: block;
+                font-size: 12px;
+                font-weight: 300;
+                line-height: 1.45em;
+                margin: 0 0 4px;
+            }
+        }
+
+        .right-part {
+            display: table-cell;
+            padding-left: 25px;
+            padding-right: 15px;
+            vertical-align: top;
+
+            .item-title {
+                font-size: 16px;
+                margin-bottom: 3px;
+            }
+
+            p, p>* {
+                font-size: .8em;
+            }
+        }
+
+        .divider {
+            background-color: $headerBackgroundColor;
+            bottom: 0;
+            left: 33%;
+            position: absolute;
+            top: 0;
+            width: 1px;
+
+            &::before {
+                background-color: $primaryColor;
+                border-radius: 10px;
+                content: '';
+                display: block;
+                height: 17px;
+                margin-left: -8px;
+                margin-top: 4px;
+                opacity: .25;
+                position: absolute;
+                width: 17px;
+                z-index: 0;
+            }
+
+            &::after {
+                background-color: $sectionBackgroundColor;
+                border: 2px solid $primaryColor;
+                border-radius: 5px;
+                content: '';
+                display: block;
+                height: 9px;
+                margin-left: -4px;
+                margin-top: 8px;
+                position: absolute;
+                width: 9px;
+                z-index: 1;
+            }
+        }
+
+        &:last-child .right-part {
+            padding-bottom: 0;
+        }
+    }
+}
+
+.skills-info {
+    margin-bottom: 30px;
+
+    .skill {
+        border: 1px dashed rgb(72 72 72 / 50%);
+        margin-bottom: 8px;
+        padding: 5px;
+
+        h4 {
+            display: block;
+            font-size: 11px;
+            line-height: 1.1em;
+            margin: 0;
+            text-wrap: balance;
+        }
+
+        .skill-value {
+            color: #aaa;
+            display: block;
+            font-size: 10px;
+            line-height: 1.1em;
+            margin: 8px 0 0;
+            text-align: left;
+        }
+
+        &:hover {
+            border: 1px dashed shade($contrastColor, -30%);
+        }
+    }
+
+    .strength {
+        h4 {
+            background-color: $contrastColor;
+            border-radius: 3px;
+            color: #fff;
+            display: inline-block;
+            font-size: 12px;
+            font-weight: inherit;
+            margin: 3px 2px;
+            padding: 1px 10px;
+
+            &:hover {
+                background-color: shade($contrastColor, -30%);
+            }
+        }
+    }
+
+
+}
+
+.certificate-item {
+    border: 2px solid $headerBackgroundColor;
+    border-radius: 8px;
+    display: table;
+    height: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    table-layout: fixed;
+    transition: all .2s ease-in-out;
+    width: 100%;
+
+    .certi-logo {
+        background-color: $headerBackgroundColor;
+        border-bottom-left-radius: 6px;
+        border-top-left-radius: 6px;
+        display: table-cell;
+        height: 100%;
+        padding: 5px;
+        vertical-align: middle;
+        width: 90px;
+
+        img {
+            display: block;
+            max-width: 100%;
+        }
+    }
+
+    .certi-content {
+        display: table-cell;
+        padding: 5px;
+        vertical-align: middle;
+        width: 100%;
+
+        .certi-title h4 {
+            font-size: 14px;
+            margin: 0 0 5px
+        }
+
+        .certi-date {
+            color: #777;
+            font-size: .7em;
+            opacity: .7
+        }
+
+        .certi-company {
+            color: #777;
+            font-size: .8em;
+            opacity: .7;
+
+            a {
+                opacity: .7;
+
+                &:hover {
+                    color: $primaryColor;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(xxl) {
+    .divider {
+        left: 33%;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .divider {
+        left: 50%;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    // .divider {
+    //     left: 50%;
+    // }
+}
+
+@include media-breakpoint-down(sm) {
+    .divider {
+        left: 0;
+    }
+}
+
+@media only screen and (width <= 576px) {
+// @include media-breakpoint-down(sm) {
+    .timeline {
+        .timeline-item {
+            display: block;
+            position: relative;
+
+            .left-part {
+                display: block;
+                min-height: 100%;
+                padding-left: 25px;
+                text-align: left;
+            }
+
+            .divider {
+                left: 0;
+            }
+
+            .right-part {
+                display: block;
+                padding-left: 25px;
+                padding-right: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+:export {
+    alertModalBackgroundColor: #{$alertModalBackgroundColor};
+    alertModalTextColor: #{$alertModalTextColor};
+    bodyDark10: #{shade($bodyBackgroundColor, -10%)};
+    bodyDark50: #{shade($bodyBackgroundColor, -50%)};
+    bodyDark90: #{shade($bodyBackgroundColor, -90%)};
+    bodyLight10: #{shade($bodyBackgroundColor, 10%)};
+    primaryColor: #{$primaryColor};
+    sectionBackgroundColor: #{$sectionBackgroundColor};
+}
