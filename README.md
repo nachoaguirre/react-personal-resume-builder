@@ -3,6 +3,11 @@
 
 This project is a personal resume site builder, developed with React and Vite. It's perfect for professionals looking to have a personal website to showcase their experience, skills, and to connect with others. It is completely open source and easily customizable to fit your specific needs.
 
+## Demo
+View a demo site here: [https://react-personal-resume-builder.netlify.app](https://react-personal-resume-builder.netlify.app)
+
+![react-personal-resume-builder-demo](https://github.com/nachoaguirre/react-personal-resume-builder/assets/52148018/5a0b79ed-01be-4700-9191-37f727dec600)
+
 ## Features
 
 - **Dynamic Sections:** Includes sections for "About Me", "Resume", and "Contact".
